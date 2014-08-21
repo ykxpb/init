@@ -29,8 +29,12 @@ Plugin 'hynek/vim-python-pep8-indent'
 "Plugin 'lh-vim-lib'
 
 " golang
-Plugin 'go.vim'
+Plugin 'fatih/vim-go'
 
+let g:go_fmt_autosave = 0
+
+" git
+Plugin 'airblade/vim-gitgutter'
 
 " erlang
 Plugin 'erlang-indent-file'
@@ -44,12 +48,13 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'zaiste/tmux.vim'
 Plugin 'scrooloose/nerdcommenter'
-
+Plugin 'Lokaltog/powerline'
 
 " HTML
 Plugin 'digitaltoad/vim-jade'
 Plugin 'tpope/vim-markdown'
 Plugin 'ZenCoding.vim'
+Plugin 'vim-scripts/Emmet.vim'
 
 " CSS
 Plugin 'wavded/vim-stylus'
@@ -62,7 +67,6 @@ Plugin 'zaiste/Atom'
 Plugin 'w0ng/vim-hybrid'
 
 " customize
-Plugin 'Lokaltog/powerline'
 Plugin 'Markdown-syntax'
 Plugin 'taglist.vim'
 
@@ -177,4 +181,3 @@ map \ ,
 set rtp+=$GOROOT/misc/vim
 execute pathogen#infect()
 call pathogen#infect()
-
