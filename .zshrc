@@ -37,7 +37,7 @@ plugins=(git)
 export EDITOR=vim
 
 source $ZSH/oh-my-zsh.sh
-export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:/home/vagrant/.local/bin:$PATH
+export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:$HOME/.local/bin:$PATH
 
 alias l='ls -ClhF'
 alias ll="ls -lhF"
