@@ -13,3 +13,4 @@ sublime text packages
   * sublimelinter-gjslint
 - Terminal
 - flatland
+- gitgutter
