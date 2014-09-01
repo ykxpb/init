@@ -59,6 +59,9 @@ Plugin 'vim-scripts/Emmet.vim'
 " CSS
 Plugin 'wavded/vim-stylus'
 
+" javascript
+Plugin 'javascript.vim'
+
 " color scheme
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'sjl/badwolf'

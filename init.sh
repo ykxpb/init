@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-sudo apt-get install -y git vim zsh tmux python-pip ctags
+sudo apt-get install -y git vim zsh tmux python-pip ctags autojump
 curl -L http://install.ohmyz.sh | sh
 
 # oh-my-zsh

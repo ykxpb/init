@@ -39,6 +39,10 @@ export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:$HOME/.local/bin:$PATH
 
+export GOPATH=$HOME/go
+export GOROOT=/usr/lib/go
+export PATH=$PATH:$GOPATH/bin
+
 alias l='ls -ClhF'
 alias ll="ls -lhF"
 alias la="ls -alhF"
@@ -56,4 +60,5 @@ export LC_ALL=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
 
 source ~/.profile
+. /usr/share/autojump/autojump.sh
 [[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
