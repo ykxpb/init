@@ -29,15 +29,14 @@ Plugin 'hynek/vim-python-pep8-indent'
 "Plugin 'lh-vim-lib'
 
 " golang
-Plugin 'fatih/vim-go'
-
-let g:go_fmt_autosave = 0
+Plugin 'go.vim'
 
 " git
 Plugin 'airblade/vim-gitgutter'
 
 " erlang
-Plugin 'erlang-indent-file'
+"Plugin 'erlang-indent-file'
+Plugin 'Vimerl'
 
 " lua
 Plugin 'xolox/vim-lua-ftplugin'
@@ -48,19 +47,23 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'zaiste/tmux.vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Lokaltog/powerline'
+
 
 " HTML
 Plugin 'digitaltoad/vim-jade'
 Plugin 'tpope/vim-markdown'
-Plugin 'ZenCoding.vim'
+"Plugin 'ZenCoding.vim'
 Plugin 'vim-scripts/Emmet.vim'
 
 " CSS
 Plugin 'wavded/vim-stylus'
 
 " javascript
-Plugin 'javascript.vim'
+Plugin 'lepture/vim-javascript'
+
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
 
 " color scheme
 Plugin 'altercation/vim-colors-solarized'
@@ -75,6 +78,8 @@ Plugin 'taglist.vim'
 
 Plugin 'majutsushi/tagbar'
 Plugin 'ctrlp.vim'
+
+Plugin 'yaml.vim'
 
 Plugin 'scrooloose/syntastic'
 let g:syntastic_enable_signs=1
@@ -111,7 +116,7 @@ syntax on
 "colorscheme wombat256
 "colorscheme peaksea
 colorscheme molokai
-"let g:molokai_original = 1
+let g:molokai_original = 1
 set t_Co=256
 set background=light
 
@@ -184,3 +189,4 @@ map \ ,
 set rtp+=$GOROOT/misc/vim
 execute pathogen#infect()
 call pathogen#infect()
+set rtp+=/Users/yackr/.mer_env/lib/python2.7/site-packages/powerline/bindings/vim
