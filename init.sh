@@ -1,16 +1,18 @@
 #! /usr/bin/env bash
 
 sudo apt-get install -y git vim zsh tmux python-pip ctags autojump
+sudo apt-get install -y build-essential cmake
+sudo apt-get install -y python-dev
 curl -L http://install.ohmyz.sh | sh
 
 # oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
 
-cp .gitconfig ~/
-cp .gitignore_global ~/
-cp .tmux.conf ~/
-cp .vimrc ~/
-cp .zshrc ~/
+cp gitconfig ~/.gitconfig
+cp gitignore_global ~/.gitignore_global
+cp tmux.conf ~/.tmux.conf
+cp vimrc ~/.vimrc
+cp zshrc ~/.zshrc
 
 # utils
 pip install --user git+git://github.com/Lokaltog/powerline
@@ -32,3 +34,7 @@ vim +PluginInstall +qall
 # templates
 cd ~/.vim/bundle
 git clone git://github.com/aperezdc/vim-template.git
+
+# YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
