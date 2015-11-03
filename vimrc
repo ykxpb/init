@@ -29,7 +29,7 @@ Plugin 'hynek/vim-python-pep8-indent'
 "Plugin 'lh-vim-lib'
 
 " golang
-Plugin 'go.vim'
+" Plugin 'go.vim'
 
 " git
 Plugin 'airblade/vim-gitgutter'
@@ -56,14 +56,12 @@ Plugin 'tpope/vim-markdown'
 Plugin 'vim-scripts/Emmet.vim'
 
 " CSS
-Plugin 'wavded/vim-stylus'
+" Plugin 'wavded/vim-stylus'
 
-" javascript
-Plugin 'lepture/vim-javascript'
 
-let g:html_indent_inctags = "html,body,head,tbody"
-let g:html_indent_script1 = "inc"
-let g:html_indent_style1 = "inc"
+" let g:html_indent_inctags = "html,body,head,tbody"
+" let g:html_indent_script1 = "inc"
+" let g:html_indent_style1 = "inc"
 
 " color scheme
 Plugin 'altercation/vim-colors-solarized'
