@@ -3,7 +3,6 @@
 sudo apt-get install -y git vim zsh tmux python-pip ctags autojump
 sudo apt-get install -y build-essential cmake
 sudo apt-get install -y python-dev
-curl -L http://install.ohmyz.sh | sh
 
 # oh-my-zsh
 curl -L http://install.ohmyz.sh | sh
