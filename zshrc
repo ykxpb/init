@@ -39,9 +39,9 @@ export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin:/usr/local/sbin:$HOME/.local/bin:$PATH
 
-export GOPATH=$HOME/go
-export GOROOT=/usr/lib/go
-export PATH=$PATH:$GOPATH/bin
+#export GOPATH=$HOME/go
+#export GOROOT=/usr/lib/go
+#export PATH=$PATH:$GOPATH/bin
 
 alias l='ls -ClhF'
 alias ll="ls -lhF"
