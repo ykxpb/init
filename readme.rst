@@ -2,7 +2,7 @@
 init scripts
 #############
 
-init script when host is first setup.
+ubuntu init script when host is first setup.
 
 sublime text packages
 ^^^^^^^^^^^^^^^^^^^^^
