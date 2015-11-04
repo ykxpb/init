@@ -1,7 +1,12 @@
 #! /usr/bin/env bash
 
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo cp apt-sources.list /etc/apt/sources.list
+
+sudo apt-get update
+
 sudo apt-get install -y git vim zsh tmux python-pip ctags autojump
-sudo apt-get install -y build-essential cmake
+sudo apt-get install -y build-essential cmake libssl-dev pkg-config libtool
 sudo apt-get install -y python-dev
 
 # oh-my-zsh
@@ -16,6 +21,7 @@ cp zshrc ~/.zshrc
 # utils
 pip install --user git+git://github.com/Lokaltog/powerline
 pip install --user flake8
+pip install --user ipython
 
 mkdir -p ~/.local/bin
 ln -s {path_to_powerline}/scripts/powerline ~/.local/bin
@@ -40,4 +46,5 @@ fi
 
 # YouCompleteMe
 cd ~/.vim/bundle/YouCompleteMe
-./install.py --clang-completer
+# ./install.py --clang-completer
+./install.py
