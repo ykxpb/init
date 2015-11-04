@@ -116,7 +116,7 @@ syntax on
 colorscheme molokai
 let g:molokai_original = 1
 set t_Co=256
-set background=light
+set background=dark
 
 " vimrc settings.
 set noeb
