@@ -13,6 +13,9 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Valloric/YouCompleteMe'
 
+" rust lang
+Plugin 'rust-lang/rust.vim'
+
 " Python
 Plugin 'python.vim'
 Plugin 'Python-Syntax'
