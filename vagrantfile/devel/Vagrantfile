@@ -1,0 +1,22 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.define :devel do |devel| 
+      devel.vm.hostname = "devel"
+      devel.vm.network :private_network, ip: "10.0.0.23"
+      devel.vm.provider "virtualbox" do |vb|
+          vb.customize ["modifyvm", :id, "--memory", 1024]
+      end
+  end
+
+  config.vm.network :forwarded_port, guest: 9290, host: 9290
+  config.vm.network :forwarded_port, guest: 9291, host: 9291
+  config.vm.network :forwarded_port, guest: 9292, host: 9292
+  config.vm.network :forwarded_port, guest: 9527, host: 9527
+  # config.vm.network :forwarded_port, guest: 22, host: 3222
+end
