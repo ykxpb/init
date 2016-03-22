@@ -1,12 +1,12 @@
 #! /usr/bin/env bash
 
-sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
-sudo cp apt-sources.list /etc/apt/sources.list
+#sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+#sudo cp apt-sources.list /etc/apt/sources.list
 
 sudo apt-get update
 
 sudo apt-get install -y git vim zsh tmux python-pip ctags autojump
-sudo apt-get install -y build-essential cmake libssl-dev pkg-config libtool
+sudo apt-get install -y build-essential cmake libssl-dev pkg-config libtool autoconf
 sudo apt-get install -y libreadline-dev 
 sudo apt-get install -y python-dev
 
@@ -29,7 +29,7 @@ cp vimrc ~/.vimrc
 
 # for python
 #pip install --user flake8
-pip install --user ipython
+#pip install --user ipython
 
 mkdir -p ~/.local/bin
 

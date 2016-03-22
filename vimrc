@@ -14,15 +14,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 
 " rust lang
-Plugin 'rust-lang/rust.vim'
+" Plugin 'rust-lang/rust.vim'
 
 " Python
 Plugin 'python.vim'
 Plugin 'Python-Syntax'
 Plugin 'hynek/vim-python-pep8-indent'
-"Plugin 'klen/python-mode'
-"Plugin 'python_match.vim'
-"Plugin 'pythoncomplete'
 
 " Clang
 "Plugin 'LucHermitte/vim-clang'
@@ -31,15 +28,12 @@ Plugin 'hynek/vim-python-pep8-indent'
 "Plugin 'LucHermitte/clang_indexer'
 "Plugin 'lh-vim-lib'
 
-" golang
-" Plugin 'go.vim'
-
 " git
 Plugin 'airblade/vim-gitgutter'
 
 " erlang
 "Plugin 'erlang-indent-file'
-Plugin 'Vimerl'
+"Plugin 'Vimerl'
 
 " lua
 Plugin 'xolox/vim-lua-ftplugin'
@@ -53,10 +47,10 @@ Plugin 'scrooloose/nerdcommenter'
 
 
 " HTML
-Plugin 'digitaltoad/vim-jade'
-Plugin 'tpope/vim-markdown'
+"Plugin 'digitaltoad/vim-jade'
+"Plugin 'tpope/vim-markdown'
 "Plugin 'ZenCoding.vim'
-Plugin 'vim-scripts/Emmet.vim'
+"Plugin 'vim-scripts/Emmet.vim'
 
 " CSS
 " Plugin 'wavded/vim-stylus'
@@ -67,11 +61,11 @@ Plugin 'vim-scripts/Emmet.vim'
 " let g:html_indent_style1 = "inc"
 
 " color scheme
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'sjl/badwolf'
+"Plugin 'altercation/vim-colors-solarized'
+"Plugin 'sjl/badwolf'
 Plugin 'tomasr/molokai'
-Plugin 'zaiste/Atom'
-Plugin 'w0ng/vim-hybrid'
+"Plugin 'zaiste/Atom'
+"Plugin 'w0ng/vim-hybrid'
 
 " customize
 Plugin 'Markdown-syntax'
@@ -92,8 +86,8 @@ let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': ['ruby'], 'pa
 "let g:syntastic_enable_balloons = 1
 "
 
-let g:email = 'enulex@gmail.com'
-let g:username = 'yuanyang'
+let g:email = 'cyberyuanyang@gmail.com'
+let g:username = 'Yuan Yang'
 
 call vundle#end()
 
