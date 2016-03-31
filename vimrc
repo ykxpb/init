@@ -28,6 +28,8 @@ Plugin 'hynek/vim-python-pep8-indent'
 "Plugin 'LucHermitte/clang_indexer'
 "Plugin 'lh-vim-lib'
 
+Plugin 'fatih/vim-go'
+
 " git
 Plugin 'airblade/vim-gitgutter'
 
