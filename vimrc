@@ -46,6 +46,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'zaiste/tmux.vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'dkprice/vim-easygrep'
 
 
 " HTML
