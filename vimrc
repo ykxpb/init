@@ -12,6 +12,10 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'Valloric/YouCompleteMe'
+"let g:ycm_disable_for_files_larger_than_kb = 1
+
+" C++
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " rust lang
 " Plugin 'rust-lang/rust.vim'
