@@ -12,10 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'Valloric/YouCompleteMe'
-"let g:ycm_disable_for_files_larger_than_kb = 1
-
-" C++
-Plugin 'octol/vim-cpp-enhanced-highlight'
+let g:ycm_confirm_extra_conf = 0
 
 " rust lang
 " Plugin 'rust-lang/rust.vim'
@@ -24,6 +21,10 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'python.vim'
 Plugin 'Python-Syntax'
 Plugin 'hynek/vim-python-pep8-indent'
+
+
+" C++
+Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " Clang
 "Plugin 'LucHermitte/vim-clang'
