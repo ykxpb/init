@@ -13,6 +13,11 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Valloric/YouCompleteMe'
 let g:ycm_confirm_extra_conf = 0
+"let g:ycm_disable_for_files_larger_than_kb = 1
+
+" C++
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'rhysd/vim-clang-format'
 
 " rust lang
 " Plugin 'rust-lang/rust.vim'
@@ -21,10 +26,6 @@ let g:ycm_confirm_extra_conf = 0
 Plugin 'python.vim'
 Plugin 'Python-Syntax'
 Plugin 'hynek/vim-python-pep8-indent'
-
-
-" C++
-Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " Clang
 "Plugin 'LucHermitte/vim-clang'
@@ -169,6 +170,7 @@ map <silent><leader>j :tabprevious <ENTER>
 map <silent><leader>n :tabnew <ENTER>
 
 map <silent><leader>y :w !pbcopy <ENTER>
+map <silent><leader>c :ClangFormat <ENTER>
 
 
 inoremap <C-e> <END>
