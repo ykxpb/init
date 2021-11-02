@@ -119,6 +119,8 @@ syntax on
 "colorscheme solarized
 "colorscheme wombat256
 "colorscheme peaksea
+"设置背景透明
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 colorscheme molokai
 let g:molokai_original = 1
 set t_Co=256
