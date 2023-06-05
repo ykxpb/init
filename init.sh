@@ -54,3 +54,6 @@ fi
 cd ~/.vim/bundle/YouCompleteMe
 # ./install.py --clang-completer
 ./install.py
+
+
+## TODO https://github.com/zsh-users/zsh-autosuggestions
